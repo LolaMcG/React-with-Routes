@@ -1,11 +1,11 @@
 import { useParams } from "react-router-dom"
 
 const VegItem = ({veg}) => {
-    // const {veg} = useParams()
+    const {id} = useParams()    //
 
     return (
         <li>
-        {veg.name}
+        {veg.name} {veg.id}
         </li>
     )
 }

@@ -15,6 +15,7 @@ function App() {
           <Route path="/" element={<Home/>}></Route>
           <Route path="shop" element={<VegShop/>}></Route>
           <Route path="shop/:id" element={<VegItem/>}></Route>
+          {/* <Route path="shop/:1" element={<VegItem id="1"/>}></Route> */}
         </Routes>
       </Router>
     </>

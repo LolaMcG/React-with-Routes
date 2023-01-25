@@ -16,7 +16,7 @@ const VegShop = () => {
 
     return (
         <>
-        <VegList vegtables={vegtables} />
+        <VegList vegtables={vegtables}/>
         </>
     )
 }
